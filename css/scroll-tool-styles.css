@@ -1,0 +1,54 @@
+/* Scroll Tool plugin style */
+
+table.lloo-form-table{
+border-collapse:collapse;
+}
+
+table.lloo-form-table th{
+white-space:nowrap;
+padding:10px;
+background:#CCCCCC;
+border-bottom:1px #FEFEFE solid;
+vertical-align:middle;
+}
+
+table.lloo-form-table td{
+white-space:nowrap;
+border-bottom:1px #CCCCCC solid;
+vertical-align:top;
+padding:10px;
+}
+
+table.lloo-form-table input[type="text"]{
+text-align:center;
+}
+
+table.lloo-form-table td.arrows{
+background-color:#DDDDDD;
+}
+table.lloo-form-table td.arrows img{
+margin:0 10px 10px 6px;
+}
+table.lloo-form-table td.arrows .arrow-couple{
+width:45px;
+float:left;
+text-align:center;
+white-space:normal;
+}
+
+#scroll-object{
+display:none;
+position:fixed;
+white-space:nowrap;
+cursor: pointer;
+overflow:hidden;
+line-height:0.8;
+border:none;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+z-index:99999;
+}
